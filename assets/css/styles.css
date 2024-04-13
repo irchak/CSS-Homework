@@ -15,6 +15,7 @@ header {
   color: #fff;
   padding: 80px 75px;
   background-image: url(./../img/background-img.jpeg);
+  opacity: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -23,9 +24,8 @@ h1 {
   font-weight: 900;
 }
 p {
+  padding: 16px;
   margin: auto;
-  padding: 17px;
-  width: 900px;
 }
 h2 {
   padding: 15px;
@@ -46,17 +46,22 @@ h2 {
   padding: 30px 20px;
 }
 .section-2 {
-  border: 35px solid #333;
+  border: 50px solid #333;
   color: #333;
-  padding: 30px 25px;
+  padding: 32px 16px 16px;
 }
 img {
-  width: 300px;
-  height: 200px;
+  width: 50%;
+  height: auto;
   object-fit: cover;
 }
 .section-3 {
   color: #333;
+}
+.section-3,
+.section-4,
+.section-5 {
+  padding: 32px;
 }
 .section-4 {
   color: #fff;
