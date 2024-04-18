@@ -144,10 +144,14 @@ footer {
   color: var(--main-write-color);
   background-color: black;
   padding: 25px;
+}
+
+.footer-p {
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .link-media {
